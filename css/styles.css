@@ -1,0 +1,87 @@
+html,
+body {
+  height: 100%;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.gradient {
+  background: rgb(154, 154, 154);
+  background: linear-gradient(
+    304deg,
+    rgba(154, 154, 154, 1) 6%,
+    rgba(169, 169, 169, 1) 100%
+  );
+}
+
+.gradient2 {
+  background: rgb(13, 128, 194);
+  background: linear-gradient(
+    304deg,
+    rgb(13, 128, 194) 6%,
+    rgb(173, 231, 173) 100%
+  );
+}
+
+.background1 {
+  background-color: rgb(29, 29, 29);
+}
+
+.page-header {
+  margin-top: 4rem;
+  font-size: 1.25rem;
+  color: #ffffff;
+}
+
+.feature {
+  color: white;
+}
+
+.feature ul {
+  padding-left: 2rem;
+  list-style-type: none;
+}
+
+.feature ul li {
+  padding-left: 2rem;
+  background-image: url(../node_modules/bootstrap-icons/icons/check-circle.svg);
+  background-repeat: no-repeat;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.icon {
+  color: white;
+  height: 5rem;
+  width: 5rem;
+  font-size: 1.75rem;
+  border-radius: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery {
+  background-color: rgb(56, 56, 56);
+  color: white;
+}
+
+.gallery img {
+  border-radius: 5%;
+}
+
+.services {
+  color: white;
+}
+
+footer {
+  color: white;
+  font-size: 1rem;
+  margin: 0;
+  padding: 1rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
